@@ -1,7 +1,7 @@
 package com.yourlogo.webproject.test.stepdefinition;
 
 import com.yourlogo.webproject.test.controllers.opencreateacount.CreateAnAccountWebController;
-import com.yourlogo.webproject.test.controllers.LoginPageController;
+import com.yourlogo.webproject.test.controllers.openlogin.LoginPageController;
 import com.yourlogo.webproject.test.controllers.opencreateacount.MyAccountWebController;
 import com.yourlogo.webproject.test.controllers.openwebpage.StartBrowserWebController;
 import com.yourlogo.webproject.test.data.objects.TestInfo;

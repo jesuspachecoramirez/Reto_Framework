@@ -3,8 +3,8 @@ package com.yourlogo.webproject.test.controllers.openshoppingcart;
 import co.com.sofka.test.actions.WebAction;
 import co.com.sofka.test.evidence.reports.Report;
 import co.com.sofka.test.exceptions.WebActionsException;
-import com.yourlogo.webproject.test.page.InitialPage;
-import com.yourlogo.webproject.test.page.ShoppinCartPage;
+import com.yourlogo.webproject.test.page.Cart.InitialPage;
+import com.yourlogo.webproject.test.page.Cart.ShoppinCartPage;
 import com.yourlogo.webproject.test.util.Timeoutkey;
 
 public class ShoppinCartWebController {

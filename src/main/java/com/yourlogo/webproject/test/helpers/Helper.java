@@ -54,7 +54,8 @@ public class Helper {
         customer.setDayBirth(String.valueOf(faker.number().numberBetween(1, 28)));
         customer.setMonthBirth(String.valueOf(faker.number().numberBetween(1, 12)));
         customer.setYearBirth(String.valueOf(faker.number().numberBetween(1980, 2003)));
-
+        customer.setOrder(String.valueOf(faker.number().numberBetween(100000, 999999)));
+        customer.setPrueba("Esto es un texto de validacion para una prueba automatizada");
         customer.setAddress(faker.address().fullAddress());
         customer.setCity(faker.address().city());
         customer.setPostalCode(faker.address().zipCode());

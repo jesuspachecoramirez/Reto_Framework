@@ -4,7 +4,9 @@ import co.com.sofka.test.actions.WebAction;
 import co.com.sofka.test.automationtools.selenium.Browser;
 import co.com.sofka.test.evidence.reports.Report;
 import co.com.sofka.test.exceptions.WebActionsException;
+
 import static com.yourlogo.webproject.test.helpers.Dictionary.APP_URL_PROPERTY;
+import static com.yourlogo.webproject.test.helpers.Dictionary.APP_URL_PROPERTY2;
 import static com.yourlogo.webproject.test.helpers.Helper.getProperty;
 
 public class StartBrowserWebController {
@@ -29,6 +31,16 @@ public class StartBrowserWebController {
             webAction.startWebApp(browser, getProperty(APP_URL_PROPERTY), featue);
         } catch (WebActionsException e){
             Report.reportFailure("Ocurrio un error al intentar abrir la tienda online", e);
+        }
+    }
+
+    public void abrirContactUs(){
+        try{
+            webAction.startWebApp(browser, getProperty(APP_URL_PROPERTY2), featue);
+
+        }catch (WebActionsException e){
+            Report.reportFailure("Ocurrio un error", e);
+
         }
     }
 }

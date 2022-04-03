@@ -13,6 +13,8 @@ public class Customer {
     private String postalCode;
     private String mobilePhone;
     private String state;
+    private String Order;
+    private String prueba;
 
     public String getEmail() {
         return email;
@@ -108,5 +110,17 @@ public class Customer {
 
     public void setState(String state) {
         this.state = state;
+    }
+
+    public String getOrder() {return Order; }
+
+    public void setOrder(String order) {Order = order;}
+
+    public String getPrueba() {
+        return prueba;
+    }
+
+    public void setPrueba(String prueba) {
+        this.prueba = prueba;
     }
 }

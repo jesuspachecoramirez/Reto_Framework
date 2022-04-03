@@ -2,7 +2,7 @@
 
 @FeatureName:CarritoCompras
 Característica: Validar el carrito de compras
-  Como cliente de la pagina
+  Como cliente de la pagina web yourlogo
   necesito validar el carrito de compras
   para verificar si se registra la compra en el mismo
 

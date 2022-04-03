@@ -13,8 +13,10 @@ public class Dictionary {
 
     public static final String FILE_EVIDENCE_PROPERTY = "files.evidence";
     public static final String APP_URL_PROPERTY = "app.url";
+    public static final String APP_URL_PROPERTY2="app.url2";
 
     private static final String PROPERTIES_FILE_BASE_PATH = "src/main/resources/properties/";
+
 
     public static final String CONFIGURATION_PROPERTIES_FILE = System.getProperty("user.dir") +
             "/" +
